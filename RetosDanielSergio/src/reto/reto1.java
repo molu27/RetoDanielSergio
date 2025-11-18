@@ -35,44 +35,44 @@ public class reto1 {
 		case 1:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 			n2=Funciones.dimeEntero("Dime numero2", sc );
-			System.out.println("La suma es" + (funciones1.sumar(n1, n2)));
+			System.out.println("La suma es " + (funciones1.sumar(n1, n2)));
 			break;
 			
 		case 2:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 			n2=Funciones.dimeEntero("Dime numero2", sc );
-			System.out.println("La resta es" + (funciones1.restar(n1, n2)));
+			System.out.println("La resta es " + (funciones1.restar(n1, n2)));
 			break;
 		case 3:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 			n2=Funciones.dimeEntero("Dime numero2", sc );
 			
-			System.out.println("La multiplicación es" + (funciones2.multiplicar(n1, n2)));
+			System.out.println("La multiplicación es " + (funciones2.multiplicar(n1, n2)));
 			break;
 		case 4:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 			n2=Funciones.dimeEntero("Dime numero2", sc );
-			System.out.println("La división es" + (funciones2.dividir(n1, n2)));
+			System.out.println("La división es " + (funciones2.dividir(n1, n2)));
 			break;
 		case 5:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 		
-			System.out.println("El número es par:" + (funciones1.esPar(n1)));
+			System.out.println("El número es par: " + (funciones1.esPar(n1)));
 			break;
 		case 6:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 			
-			System.out.println("El número es impar" + (funciones1.esImpar(n1)));
+			System.out.println("El número es impar " + (funciones1.esImpar(n1)));
 			break;
 		case 7:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 		
-			System.out.println("El número es positivo:" + (funciones2.esPositivo(n1)));
+			System.out.println("El número es positivo: " + (funciones2.esPositivo(n1)));
 			break;
 		case 8:
 			n1=Funciones.dimeEntero("Dime numero1", sc );
 		
-			System.out.println("El número es negativo:" + (funciones2.esNegativo(n1)));
+			System.out.println("El número es negativo: " + (funciones2.esNegativo(n1)));
 			break;
 		case 0:
 			System.out.println("Salir");
